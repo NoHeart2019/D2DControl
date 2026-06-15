@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\D2DControl">
+      <UniqueIdentifier>{a1d2fb42-4b6f-4c00-b169-732441f3f668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\C32Control">
+      <UniqueIdentifier>{6b0447e7-f498-45be-8ae1-67a39ca23cdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="D2DControlDemo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControlDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2D.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DWindow.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32Class.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32Control.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32D2D1.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32Debug.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32DebugMsg.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32DebugW.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32Env.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32GdiObject.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32Helper.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32Include.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32MFC.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="C32Control\C32Util.h">
+      <Filter>Source Files\C32Control</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DTest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DControlUI.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DContainerUI.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DScrollUI.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DTextArea.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DTextEdit.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="StyleManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DExploreUI.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DListUI.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DCheckboxUI.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DControl\D2DSelectUI.h">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControlDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2D.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DWindow.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C32Control\C32Control.cpp">
+      <Filter>Source Files\C32Control</Filter>
+    </ClCompile>
+    <ClCompile Include="C32Control\C32D2D1.cpp">
+      <Filter>Source Files\C32Control</Filter>
+    </ClCompile>
+    <ClCompile Include="C32Control\C32Debug.cpp">
+      <Filter>Source Files\C32Control</Filter>
+    </ClCompile>
+    <ClCompile Include="C32Control\C32DebugMsg.cpp">
+      <Filter>Source Files\C32Control</Filter>
+    </ClCompile>
+    <ClCompile Include="C32Control\C32Helper.cpp">
+      <Filter>Source Files\C32Control</Filter>
+    </ClCompile>
+    <ClCompile Include="C32Control\C32Include.cpp">
+      <Filter>Source Files\C32Control</Filter>
+    </ClCompile>
+    <ClCompile Include="C32Control\C32MFC.cpp">
+      <Filter>Source Files\C32Control</Filter>
+    </ClCompile>
+    <ClCompile Include="C32Control\C32Util.cpp">
+      <Filter>Source Files\C32Control</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DControlUI.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DContainerUI.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DScrollUI.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DTextArea.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DTextEdit.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="SytleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DExploreUI.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DListUI.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DCheckboxUI.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DControl\D2DSelectUI.cpp">
+      <Filter>Source Files\D2DControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D2DControlDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="C32Control\C32Class.rc">
+      <Filter>Source Files\C32Control</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
