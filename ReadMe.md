@@ -66,3 +66,5 @@ CD2DControlBaseUI        ← 状态（Normal/Hover/...）、尺寸策略、事件虚函数、基础
 特别感谢: Deepseek 和 copilot。
 
 Vibe Coding 让windows 小软件变得简单而漂亮
+
+[小河便签](Png/XiaoHeBianQian.png)
